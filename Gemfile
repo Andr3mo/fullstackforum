@@ -51,3 +51,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Haml (HTML Abstraction Markup Language)
+gem 'haml', '~> 4.0', '>= 4.0.7'
+
+# Forms made easy!
+gem 'simple_form', '~> 3.4'
+
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.2'
