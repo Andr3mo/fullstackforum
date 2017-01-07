@@ -2,6 +2,9 @@ class PostsController < ApplicationController
 	# calls the method find_post before the show, edit, update and destroy methods
 	# DRY Principle
 	before_action :find_post, only: [:show, :edit, :update, :destroy]
+
+	# Uses a method from Devise to force the user to login before any action other than view index and show pages
+	before_action :authenticate_user!, except: [:index, :show]
 	
 	# Creates the index method
 	def index
