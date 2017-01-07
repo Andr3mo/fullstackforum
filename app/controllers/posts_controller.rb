@@ -14,13 +14,13 @@ class PostsController < ApplicationController
 
 	# Creates the new post view
 	def new
-		@post = Post.new
+		@post = current_user.posts.build
 	end
 
 	# Creates the new post
 	def create
 		# Gets the parameters for the new post
-		@post = Post.new(post_params)
+		@post = current_user.posts.build(post_params)
 
 		if @post.save
 			redirect_to @post
