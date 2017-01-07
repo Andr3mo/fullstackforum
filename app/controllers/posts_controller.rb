@@ -5,6 +5,7 @@ class PostsController < ApplicationController
 	
 	# Creates the index method
 	def index
+		@posts = Post.all.order("created_at DESC")
 	end
 
 	# Shows the post
