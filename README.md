@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Forum created as an experiment for my Full Stack Web Development class at Red River College - BIT Program
 
-Things you may want to cover:
+Ruby version - ruby 2.4.0
+Rails version - Rails 5.0.1
 
-* Ruby version
+Please feel free to add new features and fix/improve the features already implemented.
 
-* System dependencies
+You can find a running version on Heroku: https://fullstackforum.herokuapp.com/
 
-* Configuration
+# Used gems:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* haml - HTML Abstraction Markup Language (https://github.com/haml/haml)
+* simpleform - Froms creation (https://github.com/plataformatec/simple_form)
+* devise - Authentication solution (https://github.com/plataformatec/devise)
+* paperclip - File attachment management (https://github.com/thoughtbot/paperclip)
+* pg - Ruby interface to the PostgreSQL RDBMS (https://github.com/ged/ruby-pg)
+* rails_12factor - Enables serving assets in production (https://github.com/heroku/rails_12factor)
