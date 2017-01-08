@@ -44,3 +44,51 @@
 		line-height: 1.5;
 	}
 }
+
+
+/* Add new Topic page */
+#add_post,
+#edit_post {
+	background: #FFFFFF;
+	padding: 2em 5%;
+	border-radius: .5em;
+	input[type="text"],
+	textarea {
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+    border-radius: .2em;
+    border: 1px solid #D1D1D1;
+    margin-bottom: 1em;
+	}
+	textarea {
+    height: 150px;
+  }
+  input[type="submit"] {
+  	color: #FFFFFF;
+  	background: #397CAC;
+		border: 1px solid #397CAC;
+		padding: .3em 1em;
+		border-radius: .2em;
+		cursor: pointer;
+		float: right;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

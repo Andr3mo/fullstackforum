@@ -63,7 +63,8 @@
 	}
 }
 
-.button {
+.button,
+.cancel_button {
 	color: #397CAC;
 	border: 1px solid #397CAC;
 	padding: .3em 1em;
@@ -71,4 +72,5 @@
 	text-decoration: none;
 	margin-right: 2%;
 	float: right;
+	cursor: pointer;
 }
