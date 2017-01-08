@@ -1,3 +1,75 @@
 // Place all the styles related to the Comments controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#comments {
+	.comment {
+		border-bottom: 1px solid #D1D1D1;
+		padding-bottom: 1em;
+		margin-bottom: 1em;
+		.content {
+			width: 75%;
+			float: left;
+		}
+		.buttons {
+			width: 25%;
+			float: left;
+			font-size: .8em;
+			text-align: right;
+			padding-top: 1.5em;
+			a {
+				color: #397CAC;
+				border: 1px solid #397CAC;
+				padding: .5em 1em;
+				border-radius: .2em;
+				text-decoration: none;
+				margin-right: 2%;
+			}
+		}
+		.comment_content {
+			margin: 0;
+			padding: 0;
+			color: #A9A9A9;
+		}
+		.comment_author {
+			color: #397CAC;
+			margin-top: .5rem;
+			font-size: 0.6em;
+			font-weight: 700;
+		}
+	}
+	textarea {
+		width: 100%;
+		min-height: 150px;
+		border: 1px solid #D1D1D1;
+		border-radius: .2em;
+		margin: 1em 0;
+	}
+	input[type="submit"] {
+		background: #397CAC;
+		border: none;
+		color: #FFFFFF;
+		font-weight: 100;
+		padding: .5em 1em;
+		border-radius: .2em;
+		cursor: pointer;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
