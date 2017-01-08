@@ -61,6 +61,6 @@ class PostsController < ApplicationController
 
 	# Gets the title and content of the post (DRY Principle)
 	def post_params
-		params.require(:post).permit(:title, :content)
+		params.require(:post).permit(:title, :content, :image)
 	end
 end

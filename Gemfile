@@ -60,3 +60,6 @@ gem 'simple_form', '~> 3.4'
 
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 4.2'
+
+# Gem for image uploads
+gem "paperclip", "~> 5.0.0"

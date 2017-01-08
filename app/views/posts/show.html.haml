@@ -1,5 +1,7 @@
 #post_content
 	%h1= @post.title
+	- if @post.image?
+		= image_tag @post.image.url(:medium)
 	%p= @post.content
 	- if current_user != NIL && current_user.id == @post.user.id
 		= link_to "Delete", post_path(@post), method: :delete, data: { confirm: "Are you sure you want to do this?"}, class: "button"
