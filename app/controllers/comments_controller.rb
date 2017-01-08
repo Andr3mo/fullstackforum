@@ -1,4 +1,7 @@
 class CommentsController < ApplicationController
+	# Uses a method from Devise to force the user to login before any action other than view index and show pages
+	before_action :authenticate_user!, except: [:index]
+
 	def create
 		@post = Post.find(params[:post_id])
 		@comment = @post.comments.create(params[:comment].permit(:comment))
